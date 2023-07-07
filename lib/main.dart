@@ -122,20 +122,20 @@ class _WeatherPageState extends State<WeatherPage> {
                       ],
                     ),
                     Container(
-                      height: mediaquery_height_normal * 0.035,
+                      height: mediaquery_height_normal * 0.050,
                       alignment: Alignment.center,
                       child: Text(
                         weatherState.weather.isNotEmpty
                             ? weatherState.weather
                             : 'Loading...',
                         style: GoogleFonts.poppins(
-                          fontSize: mediaquery_width * 0.015,
+                          fontSize: mediaquery_width * 0.020,
                           color: Colors.white,
                         ),
                       ),
                     ),
                     Container(
-                      height: mediaquery_height_normal * 0.05,
+                      height: mediaquery_height_normal * 0.0001,
                       alignment: Alignment.center,
                       child: Column(
                         children: [
